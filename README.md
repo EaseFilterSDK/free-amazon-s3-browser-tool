@@ -1,7 +1,7 @@
 # C# Amazon S3 Browser
 
 [![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)]()
-[![Language](https://img.shields.io/badge/language-C%23-green.svg)]()
+[![Language](https://img.shields.io/badge/Language-C%23%20%7C%20C++%20%7C%20Python%20%7C%20Rust%20%7C%20Java-success.svg)]()
 [![Cloud](https://img.shields.io/badge/cloud-Amazon%20S3-orange.svg)]()
 
 An intuitive, Windows-based C# application to browse, upload, and download files seamlessly from Amazon S3. Built using the AWS SDK, this project provides a working template for managing S3 storage objects, featuring advanced support for multi-part parallel transfers.
