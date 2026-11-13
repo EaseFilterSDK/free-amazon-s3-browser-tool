@@ -1,4 +1,20 @@
-# Amazon S3 File Explorer Demo
+# C# Amazon S3 Browser
+
+[![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)]()
+[![Language](https://img.shields.io/badge/language-C%23-green.svg)]()
+[![Cloud](https://img.shields.io/badge/cloud-Amazon%20S3-orange.svg)]()
+
+An intuitive, Windows-based C# application to browse, upload, and download files seamlessly from Amazon S3. Built using the AWS SDK, this project provides a working template for managing S3 storage objects, featuring advanced support for multi-part parallel transfers.
+
+## 🚀 Features
+
+* **Complete Object Management:** Browse, view, upload, and download files directly to and from your Amazon S3 buckets.
+* **Parallel Uploads & Downloads:** Speed up large file transfers by enabling multi-part, multi-threaded upload and download tasks.
+* **Multi-Site Management:** Seamlessly configure, edit, and switch between multiple AWS S3 accounts and environments.
+* **Smart Local Caching:** Designate local cache folders to store files locally upon download.
+* **Instant Credential Validation:** Built-in connection testing to instantly verify your IAM Access Keys and Region settings before transferring data.
+
+## A C# Amazon S3 File Explorer Example
 Amazon S3 Browser is a c# example to browse the files in S3, allows you to upload and download the files in S3. The S3 Browser demo provide an intuitive interface to manage the files in S3, you can seamlessly view and manage your files in S3, it provides an C# example how to upload and download the files in S3 with the C# AWS SDK.
 ![Amazon S3 File Explorer Demo](https://www.easefilter.com/images/S3Explorer.png)
 ## Congfigure S3 Site Settings
@@ -17,6 +33,8 @@ The [CloudTier SDK](https://www.easefilter.com/cloud/storage-tiering-sdk.htm) in
 
 The [CloudTier S3 demo](https://www.easefilter.com/cloud/cloudtier-s3-intelligent-tiering-demo.htm) is a C# demo project, it demonstrates how to connect the S3 storage from your on-premise storage, and how to generate the test files in on-premise storage and S3 storage. It demonstrates how to browse and read the S3 files as a local regular files.
 ![CloudTier S3 Demo](https://www.easefilter.com/images/CloudTierS3Demo.PNG)
+
+To read more information, please go to [EaseFilter S3 Explorer website](https://www.easefilter.com/cloud/s3-browser-demo.htm). 
 
 ## EaseFilter File System Filter Driver SDK Reference
 | Product Name | Description |
@@ -57,6 +75,17 @@ The [CloudTier S3 demo](https://www.easefilter.com/cloud/cloudtier-s3-intelligen
 * [Filter Driver Developer Guide](https://www.easefilter.com/kb/DeveloperGuide.htm)
 * [MiniFilter Filter Driver Framework](https://www.easefilter.com/kb/minifilter-framework.htm)
 * [Isolation Filter Driver](https://www.easefilter.com/kb/Isolation_Filter_Driver.htm)
+
+## License
+
+This repository contains two distinct licensing categories:
+
+1. **Wrapper/Implementation Code (MIT License):** 
+   The source code, scripts, and configuration files provided directly in this repository are licensed under the [MIT License](LICENSE). You are free to modify, distribute, and use this specific integration code.
+
+2. **EaseFilter SDK (Commercial License):**
+   This project requires the EaseFilter SDK (including its binaries, filter drivers, and core libraries) to function. The EaseFilter SDK is **proprietary commercial software** and is strictly excluded from the MIT License.   
+   To use the EaseFilter SDK for commercial purposes or in a production environment, you must obtain a valid commercial license directly from [EaseFilter](https://www.easefilter.com/license.pdf).
 
 ## Support
 If you have questions or need help, please contact support@easefilter.com 
